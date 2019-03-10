@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "217674819453",
+    "firebase_url": "https://portfolio-f214c.firebaseio.com",
+    "project_id": "portfolio-f214c",
+    "storage_bucket": "portfolio-f214c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:217674819453:android:a93ec2a91a9b1306",
+        "android_client_info": {
+          "package_name": "database.c347.soi.rp.edu.sg.portfolio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "217674819453-dbgrk9e3av38lg5fo3j3foofh3j8ardo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "database.c347.soi.rp.edu.sg.portfolio",
+            "certificate_hash": "872fbacc55b9ae19620ac3d5bd215c31a58dfe3b"
+          }
+        },
+        {
+          "client_id": "217674819453-kgd3cqg4lgqs11lsc833g86tj6fpbke6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcGDOc6fnB_IKtEjUS4S0rx0wqgBjvkm0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "217674819453-kgd3cqg4lgqs11lsc833g86tj6fpbke6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
