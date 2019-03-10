@@ -62,7 +62,7 @@ public class FirstActivity extends AppCompatActivity {
 
                 for(int j=0; j<gridImg.length; j++){
                     GridModel gridModel = new GridModel();
-                    gridModel.setImg(gridImg[j]);
+                    gridModel.setImgURL(gridImg[j]);
                     listModelArrayGrid.add(gridModel);
                 }
                 titleModel.setArrayListGrid(listModelArrayGrid);
