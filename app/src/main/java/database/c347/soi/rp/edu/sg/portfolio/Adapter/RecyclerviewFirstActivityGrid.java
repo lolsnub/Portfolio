@@ -45,8 +45,9 @@ public class RecyclerviewFirstActivityGrid extends RecyclerView.Adapter<Recycler
 //        String imgURL = "https://static.zerochan.net/Nakamura.Sumikage.full.1947241.jpg";
         GridModel gridModel = mData.get(position);
 //        holder.ivListImg.setImageResource(gridModel.getImg());
-        Picasso.get().setIndicatorsEnabled(true);
-        Picasso.get().load(gridModel.getImgURL()).into(holder.ivListImg);
+//        Picasso.get().setIndicatorsEnabled(true);
+//        Picasso.get().load(gridModel.getImgURL()).into(holder.ivListImg);
+        Glide.with(mContext).load(gridModel.getImgURL()).into(holder.ivListImg);
         if(gridModel == mData.get(getItemCount() -1)){
             holder.tvDisplayMore.setVisibility(View.VISIBLE);
         }

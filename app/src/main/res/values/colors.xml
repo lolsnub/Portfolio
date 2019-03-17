@@ -6,4 +6,8 @@
 
     <color name="starBlue">#09c6df</color>
     <color name="endBlue">#0bcce6</color>
+
+    <color name="colorPri">#00a2ff</color>
+    <color name="colorPriDark">#0183ce</color>
+    <color name="colorPriAccent">#ffcc00</color>
 </resources>

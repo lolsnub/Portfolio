@@ -49,6 +49,9 @@ public class MainActivity extends AppCompatActivity {
                 if(listHash.get(listDataHeader.get(i)).get(i1).equals("Profile View")){
                     nextActivity(FirstActivity.class, "Profile View");
                 }
+                if(listHash.get(listDataHeader.get(i)).get(i1).equals("Login")){
+                    nextActivity(LoginActivity.class, "Login");
+                }
                 return true;
             }
         });
@@ -59,11 +62,15 @@ public class MainActivity extends AppCompatActivity {
         listHash = new HashMap<>();
 
         listDataHeader.add("Portfolio");
+        listDataHeader.add("Firebase");
         List<String> title1 = new ArrayList<>();
+        List<String> title2 = new ArrayList<>();
 
         title1.add("Profile View");
+        title2.add("Login");
 
         listHash.put(listDataHeader.get(0), title1);
+        listHash.put(listDataHeader.get(1), title2);
 
     }
 
